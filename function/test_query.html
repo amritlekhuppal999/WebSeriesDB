@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="local/js/jquery.min.js"></script>	<!--JQUERY-->
+</head>
+<body>
+	<div id="result">
+		
+	</div>
+</body>
+</html>
+
+<script>
+	$.ajax({
+		url: 'home.php',
+		type:'POST',
+		data:'action=home',
+		dataType:'html',
+		success: function(response){
+			$("#result").html(response);
+		}
+	});
+
+</script>

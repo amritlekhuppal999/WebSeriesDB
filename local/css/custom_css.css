@@ -1,0 +1,153 @@
+body{
+	position: relative;
+
+	background-color: #1c232e; 
+	/*#1c232e - tumbler theme*/
+	/*#e9ecef - jumbotron default*/
+	font-family: 'Solway', serif;
+}
+.go-right{
+	position:absolute;
+	right:16px;
+}
+.go-left{
+	position:absolute;
+	left:16px;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.un-link{
+	text-decoration: none;
+}
+
+/*CUSTOM SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*/////////////////*/
+
+/*////////////////////////////////////////*/
+/* width */
+.inner-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.inner-scroll::-webkit-scrollbar-track {
+  background: #ffffff;
+ 
+}
+/* Handle */
+.inner-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.inner-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.inner-scroll{
+	overflow:hidden;
+	overflow-y:scroll;
+	/*color:red;*/
+	max-height:522px;
+}
+/*////////////////////////////////////////*/
+
+.lower-sec{
+
+	background-color: #e9ecef;	
+	position: fixed;
+	height:100%;
+	width:100%;
+	padding:10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.name-card{
+	margin-bottom: 10px;
+}
+.profile-DP{
+	/*position:relative;*/
+	height: 190px;
+	width: 190px;
+	border-radius: 101px;
+	border: 10px solid #bdbdbd;
+	margin: 15px auto 5px;
+}
+.content:hover{
+	cursor: pointer;
+	color: #808080;
+}
+.cont-active{
+	color: #808080; 
+	background-color:#d4d4d4;
+}
+
+.about h1{
+	font-family: 'Patua One', serif;
+	font-size: 80px;
+}
+.about span, p{
+	color:#bdbdbd;
+}
+.about b{
+	color:#bd5d38;
+}
+.about h4{
+	font-family: 'Patua One', serif;
+	color:#737272;
+}
+
+.social-icons i{
+	font-size:32px;
+	margin-right:10px;
+	margin-left:10px;
+}
+.social-icons i:hover{
+	cursor: pointer;
+}
+.fa-twitter:hover{
+	color:#1da0f2; /*Color of twitter*/
+}
+.fa-facebook:hover{
+	color:#385898; /*Color of facebook*/
+}
+.fa-instagram:hover{
+	color:#ff2e5b; /*Color of insta*/
+}
+.fa-linkedin-in:hover{
+	color:#0077b5; /*Color of linkedIN*/
+}
+.contact-no:hover{
+	color:#07bc4c;	/*Color of whatsapp*/
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+

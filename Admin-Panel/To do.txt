@@ -1,0 +1,39 @@
+
+1. Add Season+Episode deatail page form.
+	Remove season count from add-series form.
+	Give add season option in the add season page.
+	Also remove episode count from add-season form.
+	Give add episode option in the add-episode page. -----DONE(ALL of it)
+
+2. Remove Select option from Gender select.	-----DONE
+3. Add SOCIAL ACCOUNTS.    			-----DONE
+4. Add writer, producer.			-----DONE
+5. Create Add Admin page.			-----DONE
+6. SET RELEASE DATES FOR ALL FORMS.		-----DONE
+7. Separate the api pages for respective options.		-----DONE
+8. Create Active/Inactive option for series list in the table.  -----DONE
+9. Create View Profile for logged in user.	-----DONE
+10.Limit admin modify option.			-----DONE
+
+	Make Display Username dynamic upon name change.
+
+11. Search bar and pagination on all table pages.		-----DONE (season/ep remaining)
+	Dynamic RPP will be done later.
+
+
+12. DO BEAUTIFICATION if necessary.
+
+13. Check for potential code break. Try out all conditions.	DO IT AT LAST!!!
+
+14.Create Ajax search/select boxes for selecting actors/directors/ platforms.
+	OR
+   Create a separate page for adding actors/directors/ platforms.	DO IT AT LAST! (Not Imp) 
+
+15. DOCUMENT THE DAMN PROJECT.  		DO IT AT VERY LAST!!!
+
+
+
+
+
+
+

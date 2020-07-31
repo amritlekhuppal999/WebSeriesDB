@@ -1,21 +1,21 @@
 <?php 
 
-// function connection(){
+function connection(){
 
-// $servername = 'localhost';
-// $username = 'root';
-// $password = '';
-// $dbname = 'meme_jar';
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'web_series_db';
 
-// 	$conn= mysqli_connect($servername, $username, $password, $dbname);
+	$conn= mysqli_connect($servername, $username, $password, $dbname);
 
-// 	if($conn){
-// 		return $conn;
-// 	}
-// 	else{
-// 		die("Connection failed: " . mysqli_connect_error());
-// 	}
-// }
+	if($conn){
+		return $conn;
+	}
+	else{
+		die("Connection failed: " . mysqli_connect_error());
+	}
+}
 
 
 

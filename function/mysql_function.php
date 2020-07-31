@@ -8,6 +8,10 @@ function record_set($var1='', $var2=''){	//Read reocrds from database
 	global  $$var1;
 	global ${'totalRows_'.$var1};
 
+	if(isset($_REQUEST["debug"])){
+		echo $sql;
+	}
+
 	$conn = connection();		//To get connection object for database
 	$$var1 = mysqli_query($conn,$sql);
 	if(mysqli_num_rows($$var1)){
@@ -42,7 +46,11 @@ function dbRowInsert($table_name,$table_data){		//Row insert function
 			$sql .= '"'.$val.'",';
 		}
 	}
-	//echo $sql;
+	
+	if(isset($_REQUEST["debug"])){
+		echo $sql; 
+	}
+
 	if(mysqli_query($conn,$sql)){
 		$insert_id = mysqli_insert_id($conn);
 		return $insert_id;
@@ -70,7 +78,11 @@ function dbRowUpdate($table_name, $table_data, $condition){		//Row update functi
     	$sql .= $condition;
 	}
 	else{ $sql .= ' WHERE '.$condition; }
-	echo $sql;
+	
+	//echo $sql;
+	if(isset($_REQUEST["debug"])){
+		echo $sql;
+	}
 
 	if(mysqli_query($conn,$sql)){
 		return 1;

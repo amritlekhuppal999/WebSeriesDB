@@ -6,5 +6,5 @@ PHP
 SQL
 HTM & CSS
 
-Work is still in progress. 
+Work still in progress. 
 You will need WAMP/LAMP or any apache based server to run this.
